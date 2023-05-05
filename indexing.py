@@ -1,8 +1,7 @@
 """
 Slicing And Indexing
 """
-import numpy as np
-  
+import numpy as np  
 a = np.array([[6,7,8], [1,2,3], [9,3,2]])
 si1 = a[1,1]
 si2 = a[0:2,2]
@@ -13,10 +12,9 @@ print(a)
 
 
 """
-Replace NumPy array elements with condition
+Boolean Indexing
 """
 import numpy as np
-  
 np1 = np.array([75.42436315, 42.48558583, 60.32924763])
 np1[np1 > 50.] = 0
 print(np1)
@@ -26,12 +24,7 @@ b = a > 4
 a[b] = -1
 print(a)
 
-
-"""
-where condition on matrix
-"""
 import numpy as np
-
 np1 = np.array([[1, 2, 3], [4, 5, 6]])
 b = np.where(np1<=4)
 print(np1[b])

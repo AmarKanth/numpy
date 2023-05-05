@@ -1,5 +1,7 @@
 """
-Python does not have built-in support for Arrays, but Python lists can be used instead
+1. Python does not have built-in support for Arrays, but Python lists can be used instead.
+2. We cannot perform all the operations on python list. For example multiplication of 2 lists
+can be done easy with with numpy.
 """
 
 """
