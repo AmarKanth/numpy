@@ -23,8 +23,3 @@ a = np.arange(12).reshape(3,4)
 b = a > 4
 a[b] = -1
 print(a)
-
-import numpy as np
-np1 = np.array([[1, 2, 3], [4, 5, 6]])
-b = np.where(np1<=4)
-print(np1[b])
