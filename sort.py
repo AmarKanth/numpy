@@ -24,6 +24,10 @@ arr = np.array([12, 15, 10, 1])
 arr.sort()
 print(arr)
 
+mtrx = np.matrix('[4, 1; 12, 3]')
+mtrx.sort()
+print(mtrx)
+
 
 """
 argsort Method

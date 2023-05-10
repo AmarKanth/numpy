@@ -1,10 +1,8 @@
 """
-argmax Method
+argsort Method
 """
 import numpy as np
 
-arr = np.arange(12).reshape(3,4)
-res1 = np.argmax(arr)
-res2 = np.argmax(arr, axis=0)
-res3 = np.argmax(arr, axis=1)
-print(res3)
+mtrx = np.matrix('[-1, 2, 3; 4, -5, 6; 7, -8, 9]')
+res = mtrx.argsort()
+print(res)
