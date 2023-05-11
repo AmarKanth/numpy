@@ -63,3 +63,19 @@ np1 = np.array([[2, 3], [4, 5]])
 f = np1.flatten()
 r = np1.ravel()
 print(r)
+
+
+"""
+linespace Method
+"""
+import numpy as np
+arr = np.linspace(2, 3, num=5)
+print(arr)
+
+
+"""
+eye Method
+"""
+import numpy as np
+arr = np.eye(4, 5, k=1)
+print(arr)
