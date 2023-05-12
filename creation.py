@@ -79,3 +79,25 @@ eye Method
 import numpy as np
 arr = np.eye(4, 5, k=1)
 print(arr)
+
+
+"""
+fromiter Method
+"""
+import numpy as np
+
+str = "geeksforgeeks"
+arr = np.fromiter(str, dtype="U2")
+print(arr)
+
+
+"""
+fromrecords Method
+"""
+import numpy as np
+
+columns = "Rollno, Name, Age"
+rows = [(101, 'Jitender', 21), (102, 'Deepak', 20)]
+arr = np.core.records.fromrecords(rows, names=columns)
+print(arr)
+print(arr.Rollno)
